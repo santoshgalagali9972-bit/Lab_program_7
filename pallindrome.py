@@ -1,4 +1,5 @@
-string = input("Enter a string: ")
+import sys
+string = sys.argv[1]
 
 if string == string:
     print("Palindrome")
